@@ -6,7 +6,9 @@ function dummyKey(){
 }
 
 document.querySelector(".img2").addEventListener("mouseout", hereIGoHoveringAgain)
-
+function hereIGoHoveringAgain(){ 
+    alert("He took something from you, but you won't realize what it is until it's too late")
+    }
 
 
 
