@@ -5,6 +5,8 @@ function dummyKey(){
     alert("Oh, did I say press 'F'? Surprise! Lynels hate everything! Breath too loud and it's over!")
 }
 
+document.querySelector(".img2").addEventListener("mouseout", hereIGoHoveringAgain)
+
 
 
 
