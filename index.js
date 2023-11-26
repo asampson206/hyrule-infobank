@@ -20,6 +20,15 @@ let image2 = document.querySelector(".img2")
 image2.title = 'If you see this, you should definitely run!'
 })
 
-
+fetch("http://127.0.0.1:3000/TheWhiteLynel").then
+(function (response){
+return response.json()
+}).then(function(data){
+    let object1 = data[0];
+    let valuesArray = Object.values(object1);
+    let dropValuesArray = valuesArray.slice(0, 4); 
+    let h3Element = document.querySelector(".drops");
+    h3Element.textContent = "White Lynels drop the following items upon their (unlikely) defeat:" + valuesArray.join(", ") + "Click the image to receive them now!"
+})
     
 
