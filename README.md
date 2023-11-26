@@ -11,5 +11,5 @@ This webpage is meant to be a short log for potential tourists of the games main
 These interactions give you an idea of what it would be like to encounter the highly aggressive White Lynel.The functions within this application can be completed with a simple click, the press of a key, and a little hovering!
 
 ## Additional Info
-
+Image #1 is curtesy of zeldadungeon.net & image #2 was provided via reddit!
 All interactions are done within this webpage and with no reloading required! 
