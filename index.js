@@ -25,13 +25,12 @@ fetch("http://localhost:3001/lynels").then
 (function (response){
 return response.json()
 }).then(function(data){
-    
+    console.log("hi")
     const filteredLynels = data.filter(lynels => lynels.loot.includes("White-maned"));
     const lootItems = filteredLynels.map(lynels => lynels.loot);
 
     let h3Element = document.querySelector(".drops");
     h3Element.textContent = "White Lynels drop the following items upon their (unlikely) defeat: " + lootItems + ". Click the image to receive them now!"
-    console.log("hi")
 })
 })
     
