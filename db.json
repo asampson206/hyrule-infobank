@@ -1,33 +1,17 @@
-{"TheWhiteLynel": [
-  {"drop1": 
-      "White-maned lynel mace horn",
-      "drop2":
-          "White-maned lynel saber horn",
-          "drop3": "Lynel hoof",
-          "drop4": "Lynel guts."
-
-  },
-  {"locale1": "Faron Grasslands Depths",
-      "locale2": "Central Hyrule Depths",
-          "locale3" : "Hyrule Depths Arenas"},
-  {
-      "description": "These hooved monsters are said to have lived all over Hyrule since ancient times and are known to be especially dangerous. They are extremely intelligent and resilient and bear very powerful horns. There is very little eyewitness information, because few who encounter them return alive.",
-      "category" : "monster",
-      "id" : "149"
-  },
-  {
-      "sibling1" : "Red-Maned Lynels",
-          "sibling2" : "Blue-Maned Lynels",
-          "sibling3" : "Silver-Maned Lynels", 
-          "sibling4" : "Gold-Maned Lynels"    },
-          {
-              "weapon1" : "Savage Lynel Sword",
-                  "weapon2" : "Savage Lynel Spear",
-                  "weapon3" : "Savage Lynel Mace"
-          },
-          {
-              "ability1" : "Flame Breather",
-              "ability2" : "Regeneration",
-              "ability3" : "Weekly Reincarnation"
-          }
+{"Lynels": [
+    {"name": "The Red Lynel", 
+    "weapon": "Lynel Spear",
+    "loot": "Lynel Hoof"},
+    {"name": "The Blue Lynel",
+    "weapon": "Mighty Lynel Spear",
+    "loot": "Blue-maned Lynel Mace Horn"},
+    {"name": "The White Lynel",
+    "weapon": "Savage Lynel Mace",
+    "loot": "White-maned Lynel Saber Horn"},
+    {"name": "The Silver Lynel",
+    "weapon": "Savage Lynel Sword",
+    "loot": "Silver-maned Lynel Saber Horn"},
+    {"name": "The Golden Lynel",
+    "weapon": "Savage Lynel Spear",
+    "loot": "Lynel Guts"}
 ]}
